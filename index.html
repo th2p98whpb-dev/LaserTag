@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LaserWeld — Лазерная сварка</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="sparks"></canvas>
+<header>
+  <h1>LaserWeld</h1>
+  <nav><a href="#services">Услуги</a> <a href="#order">Заказать</a> <a href="#portfolio">Портфолио</a></nav>
+</header>
+<section id="hero">
+  <h2>Профессиональная лазерная сварка</h2>
+  <p>Точность, надёжность и современный подход.</p>
+</section>
+<section id="services">
+  <h3>Наши услуги</h3>
+  <ul><li>Сварка тонких листов</li><li>Сварка труб и фитингов</li><li>Ремонт деталей</li><li>Мелкосерийное производство</li></ul>
+</section>
+<section id="portfolio">
+  <h3>Портфолио</h3>
+  <div class="grid">
+    <div class="card">Пример №1 — сварка корпусов</div>
+    <div class="card">Пример №2 — ремонт лопастей</div>
+    <div class="card">Пример №3 — декоративная сварка</div>
+  </div>
+</section>
+<section id="order">
+  <h3>Онлайн-заказ</h3>
+  <form id="orderForm">
+    <label>Имя<input required></label>
+    <label>Контакт<input required></label>
+    <label>Услуга<select><option>Сварка тонких листов</option><option>Ремонт</option></select></label>
+    <button type="submit">Отправить</button>
+  </form>
+  <div id="thanks"></div>
+</section>
+<footer><small>© LaserWeld — 2025</small></footer>
+<script src="script.js"></script>
+<script src="sparks.js"></script>
+</body>
+</html>
